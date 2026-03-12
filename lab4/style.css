@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'CustFont_1';
+    src: url('fonts/FilmotypeWand.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CustFont_2';
+    src: url('fonts/gnyrwn971.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CustFont_3';
+    src: url('fonts/LeoHand.ttf') format('truetype');
+}
+body{
+    background-color: rgb(182, 147, 236);
+    max-width: 1440px;
+    margin: 0;    
+}
+.DjUn{
+    font-family: 'CustFont_1';
+}
+.NYSM{
+    font-family: 'CustFont_2';
+}
+.InBa{
+    font-family: 'CustFont_3';
+}
+.tab{
+    list-style: none;
+    color: black;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+}
+.fig1{
+    text-align: left;
+}
+.fig2{
+    text-align: center;
+}
+.fig3{
+    text-align: right;
+}
+img{
+    width: 420px;
+    height: 300px;
+    border-radius: 15px;
+}
+.man{
+    font-weight: 1000px;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Три любимых фильмов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Мои любимые фильмы</h1>
+        </header>
+        <br><br><button class="button">Нажми меня</button><br><br>
+        <nav>
+            <ol class="tab">
+                <li><a href='#1m' class="nav">Джанго освобожденный</a></li>
+                <li><a href='#2m' class="nav">Иллюзия обмана</a></li>
+                <li><a href='#3m' class="nav">Бесславные ублюдки</a></li>
+            </ol>
+        </nav>
+    </div>
+    <div>
+        <h2 id="1m">Джанго освобожденный</h2>
+        <details>
+            <summary><em>Краткое описание фильма</em></summary>
+            <p class="DjUn">Шульц — эксцентричный охотник за головами, который выслеживает и отстреливает самых опасных преступников.
+                Он освобождает раба по имени Джанго, поскольку тот может помочь ему в поисках трёх бандитов. 
+                Джанго знает этих парней в лицо, ведь <strong>у него с ними свои счёты<strong>.</p>
+        </details>
+        
+        <h3>Кадры из фильма</h3>
+        <div>
+            <img src="images/djun-01o.jpg">
+            <img src="images/djun-02o.jpg">
+            <img src="images/djun-03o.jpg">
+            <figcaption class="fig1">Начало, середина и конец фильма</figcaption>
+        </div>
+        <section>
+            <h3>О фильме</h3>
+            <table>
+                <tr>
+                    <td>Год</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>Страна</td>
+                    <td>США</td>
+                </tr>
+                <tr>
+                    <td>Жанр</td>
+                    <td>вестерн, боевик, драма, комедия</td>
+                </tr>
+                <tr>
+                    <td>Режиссёр</td>
+                    <td>Квентин Тарантино</td>
+                </tr>
+            </table>
+        </section> 
+    </div>
+    <div>
+        <h2 id="2m">Иллюзия обмана</h2>
+        <details>
+            <summary><em>Краткое описание фильма</em></summary>
+            <p class="NYSM"><mark>Команда лучших иллюзионистов мира</mark> проворачивает дерзкие ограбления 
+                прямо во время своих шоу, <b>играя в кошки-мышки с агентами ФБР</b>.</p>
+        </details>
+        <h3>Кадры из фильма</h3>
+        <div>
+            <img src="images/nysm-01.jpg">
+            <img src="images/nysm-02.jpg">
+            <img src="images/nysm-03.jpg">
+            <figcaption class="fig2">Персонажи этого фильма</figcaption>
+        </div>
+        <h3>Цитата из фильма</h3>
+        <blockquote>
+            <p>Смотрите внимательно. Потому что чем вы ближе, тем меньше вы видите.</p>
+        </blockquote>
+        <section>
+            <h3>О фильме</h3>
+            <table>
+                <tr>
+                    <td>Год</td>
+                    <td>2013</td>
+                </tr>
+                <tr>
+                    <td>Страна</td>
+                    <td>США</td>
+                </tr>
+                <tr>
+                    <td>Жанр</td>
+                    <td>криминал, триллер, детектив</td>
+                </tr>
+                <tr>
+                    <td>Режиссёр</td>
+                    <td>Луи Летерье</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <div>
+        <h2 id="3m">Бесславные ублюдки</h2>
+        <details>
+            <summary><em>Краткое описание фильма</em></summary>
+            <p class="InBa">Вторая мировая война. В оккупированной немцами Франции группа американских солдат-евреев 
+                наводит страх на нацистов, <b class="man">жестоко убивая и скальпируя солдат</b>.</p>
+        </details>
+        <h3>Кадры из фильма</h3>
+        <div>
+            <img src="images/inba-01.jpg">
+            <img src="images/inba-02.jpg">
+            <img src="images/inba-03.jpg">
+            <figcaption class="fig3">Персонажи того фильма</figcaption>
+
+        </div>
+        <section>
+            <h3>О фильме</h3>
+            <table>
+                <tr>
+                    <td>Год</td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td>Страна</td>
+                    <td>Германия, США</td>
+                </tr>
+                <tr>
+                    <td>Жанр</td>
+                    <td>боевик, драма, комедия, военный</td>
+                </tr>
+                <tr>
+                    <td>Режиссёр</td>
+                    <td>Квентин Тарантино</td>
+                </tr>
+            </table>
+        </section> 
+    </div>
+    <div>
+        <h2>Анкета</h2>
+        <form action="https:/httpbin.org/post" method="post">
+            <label for="name">Ваше имя:</label><br>
+            <input type="text" id="name" name="name">
+            <br><br>
+
+            <label for="age">Ваш возраст:</label><br>
+            <input type="number" id="age" name="age" min="1" max="120">
+            <br><br>
+
+            <label for="fav">Какие из этих фильмов Вы смотрели?</label><br>
+            <label for="djun-cb">
+                <input type="checkbox" name="fav" id="djun-cb" value="djun-cb">
+                Джанго освобожденный
+            </label><br>
+            <label for="nysm-cb">
+                <input type="checkbox" name="fav" id="nysm-cb" value="nysm-cb">
+                Иллюзия обмана
+            </label><br>
+            <label for="inba-cb">
+                <input type="checkbox" name="fav" id="inba-cb" value="inba-cb">
+                Бесславные ублюдки
+            </label>
+            <br><br>
+            
+            <label for="fav">Ваш любимый фильм:</label><br>
+            <label for="djun-rb">
+                <input type="radio" name="fav" id="djun-rb" value="djun-rb">
+                Джанго освобожденный
+            </label><br>
+            <label for="nysm-rb">
+                <input type="radio" name="fav" id="nysm-rb" value="nysm-rb">
+                Иллюзия обмана
+            </label><br>
+            <label for="inba-rb">
+                <input type="radio" name="fav" id="inba-rb" value="inba-rb">
+                Бесславные ублюдки
+            </label>
+            <br><br>
+
+            <label for="comment">Почему именно он?</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="40"></textarea>
+            <br><br>
+
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+</body>
+</html>
